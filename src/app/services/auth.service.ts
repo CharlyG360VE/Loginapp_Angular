@@ -8,8 +8,8 @@ import { map } from "rxjs/operators";
 })
 export class AuthService {
 
-  private url: string = 'https://identitytoolkit.googleapis.com/v1/accounts:';
-  private api_key: string = 'AIzaSyAp15c5yjSvunTeM-WwC6WbqdkuYo3QmKA';
+  private url: string = 'url_firebase_connect';
+  private api_key: string = 'api_key_firebase';
   userToken: string;
 
   root(User: UsuarioModel, data:string){
